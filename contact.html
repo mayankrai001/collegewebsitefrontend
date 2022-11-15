@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class ="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li> 
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <a style="text-decoration:none"></a>
+        <h1>Contact Us</h1>
+    </section>
+    
+    <!------------------Contact US--------------------->
+
+    <section class="location    ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15070.149081304045!2d72.83111767615003!3d19.215402827495446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6b27a3c5bb9%3A0xedaacc4beb1609f9!2sKandivali%2C%20Charkop%20Gaon%2C%20Kandivali%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1668514213484!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5> SV Road, Society No-420</h5>
+                        <p>Kandivili,Mumbai,India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 8237052522</h5>
+                        <p>Bhagwan ki maaya h kahin dhoop kahin chhaya h</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5> mayankrai627@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------Footer--------------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem Ipsum dolor sit amet, consectetur abfibya nakjdai  kdajbjb ai ankdak skb adbaibd a kbadibaid ad <br>iab  aKLBiul qli jljbliuf lj flblifub ul bl kJLUBliu Byud y </p>
+        <a style:"text-decoration:none"></a>
+        <div class="icons">
+            <i class="fa fa-facebbok"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i> 
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Mayank Rai</p>
+    </section>
+
+
+
+
+    <script>
+
+        var navLinks=documuent.getElementsById("navLinks");
+
+        function showmenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

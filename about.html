@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class ="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li> 
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <a style="text-decoration:none"></a>
+        <h1>About Us</h1>
+    </section>
+    
+    <!------------------About Us content -------------------->
+
+    <section class="about_us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World Larget Largest University</h1>
+                <p>Lorem Ipsum dolor sit amet, consectetur abfibya nakjdai  kdajbjb ai ankdak skb adbaibd a kbadibaid ad <br>iab  aKLBiul qli jljbliuf lj flblifub ul bl kJLUBliu Byud y</p>
+                <a href="http://" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!----------------------Footer--------------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem Ipsum dolor sit amet, consectetur abfibya nakjdai  kdajbjb ai ankdak skb adbaibd a kbadibaid ad <br>iab  aKLBiul qli jljbliuf lj flblifub ul bl kJLUBliu Byud y </p>
+        <a style:"text-decoration:none"></a>
+        <div class="icons">
+            <i class="fa fa-facebbok"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i> 
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Mayank Rai</p>
+    </section>
+
+
+
+
+    <script>
+
+        var navLinks=documuent.getElementsById("navLinks");
+
+        function showmenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
